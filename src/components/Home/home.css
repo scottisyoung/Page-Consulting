@@ -1,0 +1,100 @@
+.background {
+    margin: 0 auto;
+    padding: 0;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+}
+
+.titleParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    height: 50px;
+    width: 700px;
+    margin-top: 25vh;
+    margin-left: 70vh;
+    margin-right: 30vh;
+    font-size: 60px;
+    color: rgb(145, 145, 145);
+    z-index: 2;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 1px 1.5px rgb(59, 59, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1vh;
+}
+
+.subtitle {
+    height: 50px;
+    width: 700px;
+    margin-top: 3vh;
+    margin-left: 70vh;
+    margin-right: 30vh;
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-shadow: 0.5px 0.5px rgb(48, 48, 48);
+    color: rgb(3, 146, 182);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.3vh;
+}
+
+.introParagraph {
+    width: 600px;
+    margin-top: 5vh;
+    margin-left: 70vh;
+    margin-right: 30vh;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+    text-shadow: 0.2px 0.2px rgb(59, 59, 59);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 4vh;
+}
+
+.button1 {
+    height: 60px;
+    width: 300px;
+    border: 2px solid rgb(7, 106, 131);
+    background-color: rgba(32, 32, 32, 0);
+    border-radius: 0.5vh;
+    color: rgb(22, 22, 22);
+    text-shadow: 1px 1px rgb(58, 58, 58);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9.5vh;
+    margin-left: 70vh;
+    margin-right: 30vh;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5vh;
+}
+
+.button1:hover {
+    background-color: rgb(5, 95, 117);
+    color: white;
+    border-color: transparent;
+    transition-duration: 1s;
+}

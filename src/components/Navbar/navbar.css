@@ -1,0 +1,220 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.NavParent {
+    height: 100vh;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(182, 182, 182, 0.863);
+        background: -webkit-linear-gradient(rgba(83, 83, 83, 0.863),#272626); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(rgba(83, 83, 83, 0.863), #272626); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(rgba(83, 83, 83, 0.863), #272626); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(rgba(83, 83, 83, 0.863), #272626); /* Standard syntax */
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgb(231, 230, 230);
+    position: absolute;
+    z-index: 2;
+}
+
+.logo {
+    height: 160px;
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.logo2 {
+    margin-bottom: 15px;
+    color: rgba(0, 198, 247, 0.534);
+    text-shadow: .5px 1.5px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.Nav {
+    display: flex;
+    justify-content: center;
+    width:  80px;
+    border-top: 1px solid rgba(94, 94, 94, 0);
+    border-bottom: 1px solid rgba(94, 94, 94, 0);
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.Nav:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    animation: animate ease-in-out 1s;
+    color: rgb(0, 198, 247);
+    font-weight: bold;
+}
+
+.Link {
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+}
+
+.Link:hover {
+    text-decoration: none;
+    color: rgb(0, 198, 247);
+    font-weight: bold;
+}
+
+@keyframes animate {
+    0%
+    {
+        width: 0%;
+        border-bottom: 1px solid white transparent;
+        border-top: 1px solid white transparent;
+    }
+}
+
+@keyframes animate {
+    100%
+    {
+        width: 100px;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+    }
+}
+
+@keyframes animate {
+    0%
+    {
+        width: 0px;
+        border-bottom: 1px solid white transparent;
+    }
+}
+
+.SocialMedia1 {
+    margin-top: 5px;
+    color: rgba(0, 198, 247, 0.534);
+    text-shadow: .5px 1.5px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.SocialMedia2 {
+    margin-top: 70px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+}
+
+.SocialMedia2:hover {
+    color: white;
+    transition-duration: 2s;
+}
+
+.SocialMediaParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+    flex-wrap: wrap;
+}
+
+.Icons {
+    margin: 10px;
+    color: rgb(218, 218, 218);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
+.fa-facebook {
+    width: 12px;
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f3000;
+}
+.fa-facebook:hover {
+    background-color:rgba(0, 198, 247, 0.534);
+}
+
+.fa-instagram {
+    width: 12px;
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f3000;
+}
+.fa-instagram:hover {
+    background-color: rgba(0, 198, 247, 0.534);
+}
+
+.fa-pinterest {
+    width: 12px;
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f3000;
+}
+.fa-pinterest:hover {
+    background-color: rgba(0, 198, 247, 0.534);
+}
+
+.fa-yelp {
+    width: 12px;
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f3000;
+}
+.fa-yelp:hover {
+    background-color: rgba(0, 198, 247, 0.534);
+}
+
+.RightsParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    flex-wrap: nowrap;
+}
+
+.Rights {
+    margin-top: 5px;
+    font-size: 10px;
+    color: rgb(160, 159, 159);
+}
+
+.Rights:hover {
+    color:rgb(0, 198, 247);
+}
+
+.Rights2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: rgb(160, 159, 159);
+}
+
+
