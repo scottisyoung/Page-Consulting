@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import '../Navbar/navbar.css';
-import Image from "../../Images/page consulting logo.png";
+import Image from "../../Images/imageedit_18_2815412808.png";
 import {Link} from 'react-router-dom';
 
 class Navbar extends Component {
